@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> SignUp </title>
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+
+    <div class="outer-box">
+        <div class="inner-box">
+
+            <header class="Signup-header">
+                <h1>Sign-UP Form</h1>
+                <!-- <p>It just take 30 to 40 seconds</p> -->
+            </header>
+ <br>
+            <main class="Signup-body">
+                <form method="post"  action="/post">
+                     <p>
+                        <label for="fullname">FullName</label>
+                        <input type="text" id="fullname"  name="FullName" placeholder="Priya Khatri" required>
+                     </p>
+                     <p>
+                        <label for="email">email</label>
+                        <input type="email" id="email" name="email"  placeholder="priya@gmail.com" required>
+                     </p>
+                     <p>
+                        <label for="password">CreatePassword</label>
+                        <input type="password" id="password" name="CreatePassword"  placeholder="atleast 8 characters" required>
+                     </p>
+                     <p>
+                      
+                        <input type="submit" id="submit" value="Create Account">
+                     </p>
+                </form>
+            </main>
+
+            <footer class="Signup-footer">
+                  <p>Already have an Account? <a href="#">Login</a></p>
+            </footer>
+        </div>
+
+          <div class="circle c1"></div>
+          <div class="circle c2"></div>
+
+         <script src="/server.js"></script>
+    </div>
+
+</body>
+
+</html>
